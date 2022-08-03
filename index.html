@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="layout">
+            <div class="layout-title">
+                <h1>Guessing Game</h1>
+            </div>
+            <div class="layout-body">
+                <form class="form-field">
+                    <label for="guessing-number">
+                        Enter a number bertween 1 to 5: <input type="number" id="guessing-number" min="1" max="5" required>
+                    </label>
+                    <div class="button">
+                        <button type="submit" id="check">Check Result</button>
+                    </div>
+                </form>
+                <h5 class="result-text"></h5>
+                <h4 class="random-number"></h4>
+                <h3 class="remaining-attempts"></h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
